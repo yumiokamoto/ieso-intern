@@ -1,7 +1,7 @@
 <?php
-$user="co-413.it.3919.c";
-$pass="Yvuk4n2A";
-$pdo = new PDO('mysql:host=localhost;dbname=co_413_it_3919_com',$user,$pass);
+$user="ユーザー名";
+$pass="パスワード";
+$pdo = new PDO('mysql:host=localhost;dbname=データベース名',$user,$pass);
 
 /*
 $res=null;
@@ -10,7 +10,7 @@ $sql=null;
 
 if( $pdo ) {
 
-	// �e�[�u���쐬�̂��߂�SQL
+	// �e�[�u���쐬�̂��߂�SQL
 $sql_c = 'create table if not exists test(
 	user id int not null auto_increment,
 	user_name varcher(255) not null,

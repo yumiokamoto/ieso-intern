@@ -3,15 +3,15 @@ $res=null;
 $dbh=null;
 $sql=null;
 
-$user="co-413.it.3919.c";
-$pass="Yvuk4n2A";
-$dbh = new PDO('mysql:host=localhost;dbname=co_413_it_3919_com',$user,$pass);
+$user="ユーザー名";
+$pass="パスワード";
+$dbh = new PDO('mysql:host=localhost;dbname=データベース名',$user,$pass);
 
 
 
 if( $dbh ) {
 
-	// �e�[�u���쐬�̂��߂�SQL
+	// �e�[�u���쐬�̂��߂�SQL
 $sql = "CREATE TABLE CD(
     ID INTEGER NOT NULL,
     TITLE VARCHAR(100),

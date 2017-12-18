@@ -1,7 +1,7 @@
 <?php
-$user="co-413.it.3919.c";
-$pass="Yvuk4n2A";
-$pdo = new PDO('mysql:host=localhost;dbname=co_413_it_3919_com',$user,$pass);
+$user="ãƒ¦ãƒ¼ã‚¶ãƒ¼å";
+$pass="ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰";
+$pdo = new PDO('mysql:host=localhost;dbname=ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹å',$user,$pass);
 
 /*
 $res=null;
@@ -10,7 +10,7 @@ $sql=null;
 
 if( $pdo ) {
 
-	// ƒe[ƒuƒ‹ì¬‚Ì‚½‚ß‚ÌSQL
+	// ï¿½eï¿½[ï¿½uï¿½ï¿½ï¿½ì¬ï¿½Ì‚ï¿½ï¿½ß‚ï¿½SQL
 $sql_c = 'create table if not exists test(
 	user id int not null auto_increment,
 	user_name varcher(255) not null,
@@ -25,10 +25,10 @@ $sql_c = "CREATE TABLE CD(
     CONTENT VARCHAR(200),
     PRIMARY KEY(ID)
 
-INSERT INTO CD VALUES('‚½‚Ê‚«‚¤‚Ç‚ñ', 340);
-INSERT INTO CD VALUES('‚Ä‚ñ‚Õ‚ç‚¤‚Ç‚ñ', 440);
-INSERT INTO CD VALUES('ƒJƒŒ[‚¤‚Ç‚ñ', 420);
-INSERT INTO CD VALUES('‚¤‚Ç‚ñ’èH', 520);
+INSERT INTO CD VALUES('ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½', 340);
+INSERT INTO CD VALUES('ï¿½Ä‚ï¿½ï¿½Õ‚ç‚¤ï¿½Ç‚ï¿½', 440);
+INSERT INTO CD VALUES('ï¿½Jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ç‚ï¿½', 420);
+INSERT INTO CD VALUES('ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½H', 520);
 
 ) engine = innodb default charset = utf8";
 
@@ -45,7 +45,7 @@ echo '<br>';
 
 $sql_s = 'SHOW DATABASES';
 
-$myname = 'yumi';//ƒf[ƒ^“ü—Í
+$myname = 'yumi';//ï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½
 $comment = 'abc';
 
 }

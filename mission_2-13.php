@@ -1,12 +1,12 @@
 <?php
-$user="co-413.it.3919.c";
-$pass="Yvuk4n2A";
+$user="ãƒ¦ãƒ¼ã‚¶ãƒ¼å";
+$pass="ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰";
 
 try {
-$pdo = new PDO('mysql:host=localhost;dbname=co_413_it_3919_com',$user,$pass,
+$pdo = new PDO('mysql:host=localhost;dbname=ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹å',$user,$pass,
 array(PDO::ATTR_EMULATE_PREPARES => false));
 } catch (PDOException $e) {
- exit('ƒf[ƒ^ƒx[ƒXÚ‘±Ž¸”sB'.$e->getMessage());
+ exit('ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½Ú‘ï¿½ï¿½ï¿½ï¿½sï¿½B'.$e->getMessage());
 }
 
 $sql_s = 'select * from CD';
